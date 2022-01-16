@@ -6,6 +6,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./pages/homepage/homepage";
 import ShopPage from "./pages/shop/shop";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utilis";
 import { setCurrentUser } from "./redux/user/user.actions";
@@ -56,6 +57,7 @@ class App extends React.Component {
             }
           />
         </Switch>
+        <Footer />
       </div>
     );
   }
