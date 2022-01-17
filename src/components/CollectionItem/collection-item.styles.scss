@@ -5,6 +5,8 @@
   height: 350px;
   align-items: center;
   position: relative;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 
   .image {
     width: 100%;
@@ -25,7 +27,6 @@
 
   &:hover {
     .image {
-      
       transition: ease-in-out 0.5s;
       transform: matrix(1, 0, 0, 1, 0, -5);
     }
@@ -38,11 +39,12 @@
 
   .collection-footer {
     width: 100%;
-    height: 5%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 18px;
-
     .name {
       width: 90%;
       margin-bottom: 15px;
