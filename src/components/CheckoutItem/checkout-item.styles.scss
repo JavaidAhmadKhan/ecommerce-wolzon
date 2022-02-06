@@ -39,8 +39,18 @@
   .quantity {
     display: flex;
 
-    .arrow {
+    .arrow-increase {
       cursor: pointer;
+      &:hover {
+        color: green;
+      }
+    }
+
+    .arrow-decrease {
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
     }
 
     .value {

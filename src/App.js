@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { createStructuredSelector } from "reselect";
 
 import HomePage from "./pages/homepage/homepage";
-import ShopPage from "./pages/shop/shop";
+import ShopPage from "./components/Shop/Shop";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up";

@@ -1,8 +1,8 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  jeans:{
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "Jeans",
+    routeName: "jeans",
     items: [
       {
         id: 1,
@@ -60,7 +60,8 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  sneakers:{
+
     id: 2,
     title: "Sneakers",
     routeName: "sneakers",
@@ -115,44 +116,50 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  jackets:{
     id: 3,
     title: "Jackets",
     routeName: "jackets",
     items: [
       {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125,
+        name: "Pepe Jeans Denim Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/wolzon/image/upload/v1638378811/nox5t1wihyi7yty4sg9w.jpg",
+        price: 1899,
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90,
+        name: "Zara Men's Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/wolzon/image/upload/v1638379505/gvuqp9ysftiksswshrqx.jpg",
+        price: 2999,
       },
       {
         id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90,
+        name: "Calvin Klein Bomber Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/wolzon/image/upload/v1638594359/zjdrm0zct5yfymrbh3tb.png",
+        price: 3299,
       },
       {
         id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165,
+        name: "North Face Men's Bomber Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/wolzon/image/upload/v1638711185/cvondau7uyac7zgzloeo.jpg",
+        price: 3199,
       },
       {
         id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185,
+        name: "Black Biker Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/wolzon/image/upload/v1639851462/rzhyvsagbhdxove5xrhl.jpg",
+        price: 1550,
       },
     ],
   },
-  {
+  
+  womens:{
     id: 4,
     title: "Womens",
     routeName: "womens",
@@ -201,7 +208,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  mens:{
     id: 5,
     title: "Mens",
     routeName: "mens",
@@ -209,7 +216,8 @@ const SHOP_DATA = [
       {
         id: 30,
         name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        imageUrl:
+          "https://res.cloudinary.com/wolzon/image/upload/v1638379576/jhb53nsxqqlexj2fdm3r.jpg",
         price: 325,
       },
       {
@@ -241,9 +249,9 @@ const SHOP_DATA = [
         name: "Burgundy T-shirt",
         imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
         price: 25,
-      },
-    ],
-  },
-];
+      }
+    ]
+  }
+}
 
 export default SHOP_DATA;
