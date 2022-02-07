@@ -14,7 +14,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      image="https://svgshare.com/i/CUz.svg"
+      image="https://stripe.com/img/documentation/checkout/marketplace.png"
       name="Wolzon"
       billingAddress
       shippingAddress
